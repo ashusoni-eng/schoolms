@@ -15,6 +15,8 @@ return new class extends Migration
             $table->id('teacherId');
             $table->string('teacherName');
             $table->string('phone');
+            $table->bigInteger('adharNumber');
+            $table->string('Qualification');
             $table->timestamps();
         });
     }
