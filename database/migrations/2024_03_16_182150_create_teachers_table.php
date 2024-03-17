@@ -17,6 +17,9 @@ return new class extends Migration
             $table->string('phone');
             $table->bigInteger('adharNumber');
             $table->string('Qualification');
+            $table->string('address');
+            $table->string('docPhoto');
+            $table->integer('status');
             $table->timestamps();
         });
     }

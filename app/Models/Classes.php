@@ -19,6 +19,6 @@ class Classes extends Model
     }
     
     function classTeacher(){
-        return $this->hasOne(ClassTeacher::class,'classId');
+        return $this->hasOne(Teachers::class,'classTeacherId');
     }
 }
